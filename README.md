@@ -1,25 +1,23 @@
-# circle_app
+## circle_app
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* HostOS: MacOSX
 
-* System dependencies
+* docker vesion: 20.10.7
 
-* Configuration
+* Ruby version: 2.5
 
-* Database creation
+* DB: postgresql
+## setup
 
-* Database initialization
+* docker install
 
-* How to run the test suite
+* git clone "https://github.com/anakin1359/docker_init_postgresql.git"
 
-* Services (job queues, cache servers, search engines, etc.)
+* docker-compose up
 
-* Deployment instructions
-
-* ...
-
+* docker-compose run web rake db:create
